@@ -1,0 +1,55 @@
+.wrap-layer{
+    position: relative;
+}
+
+.background{
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+}
+
+.heading{
+    width:100%;
+    display: block;
+    font-family:"Comfortaa";
+    font-weight: normal;
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    position: absolute;
+    clear: both;
+    left: 50px;    
+}
+
+.paragraph{
+    display: block;
+    font-family:"Comfortaa";
+    font-weight: lighter;
+    font-size: 16px;
+    color:black;
+    text-align: justify;
+    position: absolute;
+    left: 800px;
+    top: 160px;
+    width: 600px;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+.link{
+    display: block;
+    font-family:"Comfortaa";
+    font-weight: lighter;
+    font-size: 21px;
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    top: 350px;
+    width: 600px;
+    word-wrap: break-word;
+}
+
+.link-danger:hover{
+    color:#0080ff !important;
+}
