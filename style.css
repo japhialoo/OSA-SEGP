@@ -57,5 +57,5 @@
 .background2{
     background-image: url(doctor.svg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-attachment: fixed;
 }
