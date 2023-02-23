@@ -3,7 +3,7 @@
 }
 
 .background{
-    background-image: url(background.svg);
+    background-image: url(backgrounds/background.svg);
     background-repeat: no-repeat;
     overflow-x: hidden;
     
@@ -55,7 +55,8 @@
 }
 
 .background2{
-    background-image: url(doctor.svg);
+    background-image: url(backgrounds/doctor.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position-x: 135%;
 }
