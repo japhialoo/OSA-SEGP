@@ -83,3 +83,46 @@
     opacity: 20%;
     
 }
+
+.questions{
+    display: block;
+    font-family:"Comfortaa";
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.radio-group label::after {
+    content:'\00a0\00a0\00a0\00a0'; /* eq &nbsp; x 4 */
+}
+
+img {
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid grey;
+}
+  
+input[type=radio] {
+    display: none;
+}
+  
+img:hover {
+    opacity:0.6;
+    cursor: pointer;
+}
+  
+img:active {
+    opacity:0.3;
+    cursor: pointer;
+}
+
+input[type=radio]:checked + label > img {
+    border: 3px solid black;
+}
+
+.tab{
+    tab-size: 8;
+}
+
+.scale{
+    font-weight: bold;
+}
