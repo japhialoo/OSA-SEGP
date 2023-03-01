@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 
 <body class="background2">
     <br>
@@ -58,13 +59,17 @@
                         </tr>
                         <tr>
                             <td>Sitting and reading</td>
-                            <td><input type="checkbox" id="EP1n" name="EP1" value="0"></td>
-                            <td><input type="checkbox" id="EP1s" name="EP1" value="1"></td>
-                            <td><input type="checkbox" id="EP1m" name="EP1" value="2"></td>
-                            <td><input type="checkbox" id="EP1h" name="EP1" value="3"></td>
+                            <td><input type="radio" class="chb" id="EP1n" name="EP1" value="0"></td>
+                            <td><input type="radio" class="chb" id="EP1s" name="EP1" value="1"></td>
+                            <td><input type="radio" class="chb" id="EP1m" name="EP1" value="2"></td>
+                            <td><input type="radio" class="chb" id="EP1h" name="EP1" value="3"></td>
                         </tr>
                         <tr>
                             <td>Watching television</td>
+                            <td><input type="radio" class="chb" id="EP2n" name="EP2" value="0"></td>
+                            <td><input type="radio" class="chb" id="EP2s" name="EP2" value="1"></td>
+                            <td><input type="radio" class="chb" id="EP2m" name="EP2" value="2"></td>
+                            <td><input type="radio" class="chb" id="EP2h" name="EP2" value="3"></td>
                         </tr>
                     </table>
                     
@@ -81,5 +86,4 @@
 
 
 </body>
-
 </html>

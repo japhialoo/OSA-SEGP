@@ -104,6 +104,13 @@ img {
 input[type=radio] {
     display: none;
 }
+
+input[class=chb] {
+    display: inline;
+    width:25px;
+    height:25px;
+
+}
   
 img:hover {
     opacity:0.6;
@@ -142,8 +149,7 @@ table{
 }
 
 input[type='checkbox'] {
-    width:25px;
-    height:25px;
+    
     background:white;
     border-radius:5px;
     border:2px solid #555;
