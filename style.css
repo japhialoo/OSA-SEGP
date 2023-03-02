@@ -138,22 +138,42 @@ input[type=radio]:checked + label > img {
 td,th{
     padding: 6px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border: none !important;
+    
+}
+
+tr{
+    border-top: 10px solid black;
+    
+}
+
+tr:first-child{
+    border-top:none;
 }
 
 table{
     border-spacing: 30px;
     width: 100%;
     background-color:rgba(128, 128, 128, 0.5);
+    border: none;
+    border-collapse: collapse;
     
 }
 
-input[type='checkbox'] {
+input[type=checkbox] {
     
     background:white;
     border-radius:5px;
-    border:2px solid #555;
+    border:2px solid black;
+    width: 15px;
+    height: 15px;
+
 }
-input[type='checkbox']:checked {
+input[type=checkbox]:checked {
     background: #abd;
+}
+
+input[type=number]{
+    width: 20rem;
+
 }
