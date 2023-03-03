@@ -15,7 +15,7 @@
     </h1>
     <br>
     <br>
-    <form action="/" method="POST">
+    <form action="result.php" method="POST">
         <center>
         <div class="questions">
             <div class="radio-group">
@@ -126,12 +126,12 @@
                     <br>
                     <br>
                     <label for="W" class="form-label">5. Weight :</label>
-                    <input type="number" class="form-control" id="W" name="W" placeholder="kg" required>
+                    <input type="number" step="any" class="form-control" id="W" name="W" placeholder="kg" required>
 
                     <br>
                     <br>
                     <label for="H" class="form-label">6. Height :</label>
-                    <input type="number" class="form-control" id="H" name="H" placeholder="m" required>
+                    <input type="number" step="any" class="form-control" id="H" name="H" placeholder="m" required>
 
                 </div>
                 <div class="questions">
