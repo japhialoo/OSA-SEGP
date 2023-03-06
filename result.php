@@ -1,8 +1,8 @@
 <?php
 
 //First get all the variables from question page
-$TS = $_POST['TS'];
-$MP = $_POST['MP'];
+$TS = $_POST['TS']; //Tonsil Size
+$MP = $_POST['MP']; //Mallampati Score
 
 //Eppworth
 $EP1 = $_POST['EP1'];
@@ -14,13 +14,13 @@ $EP6 = $_POST['EP6'];
 $EP7 = $_POST['EP7'];
 $EP8 = $_POST['EP8'];
 
-$NC = $_POST['NC'];
-$W = $_POST['W'];
-$H = $_POST['H'];
+$NC = $_POST['NC']; //Neck Circumference
+$W = $_POST['W']; //Weight
+$H = $_POST['H']; //Height
 
-$PPW = $_POST['PPW'];
-$RN = $_POST['RN'];
-$MN = $_POST['MN'];
+$PPW = $_POST['PPW']; //Posterior Pillar Webbing
+$RN = $_POST['RN']; //Retrognathia
+$MN = $_POST['MN']; //Micrognathia
 
 //Sum up the EP score
 $EPS = $EP1 + $EP2 + $EP3 + $EP4 + $EP5 + $EP6 + $EP7 + $EP8;

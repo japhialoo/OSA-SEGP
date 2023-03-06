@@ -177,3 +177,25 @@ input[type=number]{
     width: 20rem;
 
 }
+
+.background3{
+    background-image: url(backgrounds/faq.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+nav{
+    top: 0px;
+    background-color: #0F52BA;
+}
+
+.navbarLinks{
+    font-family: "Comfortaa";
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black !important;
+}
