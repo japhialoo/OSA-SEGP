@@ -178,11 +178,18 @@ input[type=number]{
 
 }
 
-.background3{
-    background-image: url(backgrounds/faq.svg);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
+.faq{
+    width: 100%;
+    height: 20rem;
+    border: 0px;
+    opacity: 1;
 }
+
+.faq:hover{
+    pointer-events: none !important;
+    opacity: 1;
+}
+
 
 nav{
     top: 0px;
@@ -198,4 +205,20 @@ nav{
 
 a:hover{
     color: black !important;
+}
+
+.gifstyle{
+    width:70% !important;
+    height:60% !important;
+    align-items: center;
+    border:0px !important;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+      
+}
+
+.gifstyle:hover{
+    pointer-events: none;
+    opacity: 1;
 }

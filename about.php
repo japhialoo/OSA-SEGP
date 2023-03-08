@@ -8,7 +8,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body class="background3">
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky">
         <div class="container-fluid">
             <a class="navbarLinks" href="MainPage.php">Home</a>
@@ -24,7 +24,25 @@
             </div>
         </div>
     </nav>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <div class="faq">
+            <img class="faq" src="backgrounds/faq.svg">
+        </div>
+        <div class="gifstyle">
+            <img class="gifstyle" src="Media/car_crash.gif">
+        </div>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 
