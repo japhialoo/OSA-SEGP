@@ -36,6 +36,12 @@ if ($NC >= "40"){
 //Calculate BMI
 $BMI = round(($W)/($H**2));
 
+$name = "Tester name";
 
+$command = "test.exe '$name'";
+
+$output = exec($command);
+
+echo $output;
 
 ?>

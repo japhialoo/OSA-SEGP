@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "cstdarg": "cpp",
+        "cstdio": "cpp"
+    }
+}
