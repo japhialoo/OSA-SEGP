@@ -43,7 +43,7 @@ $command = 'test.exe "' . $name . '"';
 $output = exec($command);
 
 if ($output==1){
-    echo "You have cancer";
+    echo "You have cancer. I'm sorry :C";
 }
 
 ?>
