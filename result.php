@@ -38,10 +38,12 @@ $BMI = round(($W)/($H**2));
 
 $name = "Tester name";
 
-$command = "test.exe '$name'";
+$command = 'test.exe "' . $name . '"';
 
 $output = exec($command);
 
-echo $output;
+if ($output==1){
+    echo "You have cancer";
+}
 
 ?>
