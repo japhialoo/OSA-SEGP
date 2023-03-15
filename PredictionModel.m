@@ -1,4 +1,4 @@
-s = xlsread('/Users/japhialoo/Documents/MATLAB/OSA/OSA_Dataset301_2YrGp.xlsx',1,'A1:J302');
+s = xlsread('OSA_Dataset301_2YrGp.xlsx',1,'A1:J302');
 VarNames = {'Outcome''A''B''C''D''E''F''G''H''I'};
 X = double(s(:,2:end));
 Y = s(:,1);
