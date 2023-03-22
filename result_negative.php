@@ -17,6 +17,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
+                        <a class="navbarLinks" href="about.php">Learn More &emsp;</a>
+                    </li>
                     <li class="nav-item">
                         <a class="navbarLinks" href="question.php">Take Quiz again &#8594;</a>
                     </li>
@@ -34,6 +36,6 @@
     <br>
     <br>
     </p>
-    <img class="happynews" src="Media/happynews.svg">
+    <img class="happynews" src="Media/joyride.svg">
 
 </html>
