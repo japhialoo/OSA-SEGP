@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body class="background2">
@@ -30,7 +29,7 @@
     </h1>
     <br>
     <br>
-    <form action="result.php" method="POST">
+    <form action="result.php" method="POST" id="myForm">
         <center>
             <div class="questions">
                 <div class="radio-group">
@@ -76,7 +75,7 @@
                             </tr>
                             <tr>
                                 <td>Sitting and reading</td>
-                                <td><input type="radio" class="chb" id="EP1n" name="EP1" value="0" requireed></td>
+                                <td><input type="radio" class="chb" id="EP1n" name="EP1" value="0" required></td>
                                 <td><input type="radio" class="chb" id="EP1s" name="EP1" value="1"></td>
                                 <td><input type="radio" class="chb" id="EP1m" name="EP1" value="2"></td>
                                 <td><input type="radio" class="chb" id="EP1h" name="EP1" value="3"></td>
@@ -134,13 +133,13 @@
                         <div class="questions">
                             <br>
                             <br>
-                            <label for="NC" class="form-label">4. Neck Circumference :</label>
+                            <label for="NC" class="form-label" required>4. Neck Circumference :</label>
                             <style>
                                 input[type=number] {
                                     border: 2px solid black
                                 }
                             </style>
-                            <input type="number" class="form-control" id="NC" name="NC" placeholder="cm" required>
+                            <input type="number" step="any" class="form-control" id="NC" name="NC" placeholder="cm" required>
 
                             <br>
                             <br>
@@ -188,7 +187,7 @@
 
 
 
-
+    <script src="script.js"></script>
 
 </body>
 
