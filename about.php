@@ -26,7 +26,7 @@
     </nav>
     <h1 class="h1" style="text-align:center; color:blue; font-family:Comfortaa">Learn More.</h1>
     <br>
-    <p class="paragraph3" style="text-align:left; font-family:Comfortaa">
+    <p class="paragraph3" style="text-align:center; font-family:Comfortaa">
     <h3 >
         <b>Dangers of Obstructive Sleep Apnea.</b>
     </h3>

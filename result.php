@@ -50,7 +50,7 @@ $command = 'TestPrediction.exe ' . escapeshellarg($string); //python instead of 
 $output = shell_exec($command);
 
 if ($output==NULL){
-    echo "Output is NULL Error, Python executable file unable to detect input values.";
+    header("Location: errorPage.php");
 }
 
 if ($output=="[1]"){
