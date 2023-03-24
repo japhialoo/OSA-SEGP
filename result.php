@@ -56,7 +56,7 @@ if ($output==NULL){
 }
 
 if ($output=="[1]"){
-    echo "You have OSA";
+    header("Location: result_positive.php");
 }else{
     header("Location: result_negative.php");
 }
