@@ -72,7 +72,21 @@
     background-image: url(backgrounds/doctor.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 135%;
+    background-position-x: 100%;
+    
+}
+
+.background3 {
+    background-image: url(backgrounds/faq.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:30%;
+    
+}
+
+
+.bodytext{
+    font-family: "Comfortaa";
 }
 
 .heading2 {
@@ -198,6 +212,18 @@ input[type=number] {
     opacity: 1;
 }
 
+.carAcc {
+    width: 150%;
+    height: 20rem;
+    border: 0px;
+    opacity: 1;
+}
+
+.carAcc:hover {
+    pointer-events: none !important;
+    opacity: 1;
+}
+
 .happynews {
     width: 150%;
     height: 35rem;
@@ -210,6 +236,20 @@ input[type=number] {
     pointer-events: none !important;
     opacity: 1;
 }
+
+.sadnews {
+    width: 150%;
+    height: 35rem;
+    border: 0px;
+    opacity: 1;
+    vertical-align: bottom;
+}
+
+.sadnews:hover {
+    pointer-events: none !important;
+    opacity: 1;
+}
+
 
 nav {
     top: 0px;
@@ -228,13 +268,14 @@ a:hover {
 }
 
 .gifstyle {
-    width: 70% !important;
-    height: 60% !important;
-    align-items: center;
+    width: 50% !important;
+    height: 50% !important;
+    align-items: right;
     border: 0px !important;
     position: relative;
     top: -100px;
     z-index: -1;
+    left: 50;
 }
 
 .gifstyle:hover {
