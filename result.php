@@ -36,14 +36,29 @@ if ($NC >= "40"){
 //Calculate BMI
 $BMI = round(($W)/($H**2));
 
-$name = "Tester name";
+//Check for obesity
+if ($BMI >="30"){
+    $OBE = "1";
+} else {
+    $OBE = "0";
+}
 
-$command = 'test.exe "' . $name . '"';
+//1.TS 2.MP 3.NC 4.CNC 5.EPS 6.OBE 7.PPW 8.RN 9.MN
 
-$output = exec($command);
+$string = $TS . " " . $MP . " " . $NC . " " . $CNC . " " . $EPS . " " . $OBE . " " . $PPW . " " . $RN . " " . $MN;
+$command = 'TestPrediction.exe ' . escapeshellarg($string); //python instead of python3 worked for my machine
+$output = shell_exec($command);
 
-if ($output==1){
-    echo "You have cancer. I'm sorry :C";
+if ($output==NULL){
+    echo "Output is NULL";
+}else{
+    echo $output;
+}
+
+if ($output=="[1]"){
+    echo "You have OSA";
+}else{
+    header("Location: result_negative.php");
 }
 
 ?>
