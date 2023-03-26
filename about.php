@@ -72,8 +72,13 @@
                             <br>
                             <div class="disclaimer">
                                 Disclaimer: <h6>
-                                    This prediction is not 100%, it is just a mere prediction. It is a way to save you time and money, but we still recommend getting your result
-                                    verified by a medical professional.
+                                The results obtained from the machine learning model for obstructive sleep apnea (OSA) prediction are not guaranteed to be 100% accurate. The model is based on statistical analysis of input data and may produce false positives or false negatives. 
+                                <br><br>
+                                The results should not be considered as a definitive diagnosis of OSA or a substitute for a medical professional's evaluation. 
+                                <br><br>
+                                The model should be used as a tool to assist in identifying individuals who may be at risk for OSA, but a medical professional's evaluation is necessary for a confirmed diagnosis. 
+                                <br><br>
+                                The developers of this model are not responsible for any errors or consequences resulting from the use of this tool.
                                 </h6>
                             </div>
                             <br><br><br>
