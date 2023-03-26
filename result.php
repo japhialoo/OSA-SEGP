@@ -53,10 +53,16 @@ if ($output==NULL){
     header("Location: errorPage.php");
 }
 
-if ($output=="[1]"){
-    header("Location: result_positive.php");
-}else if ($output=="[0]"){
+if ($output==NULL){
+    echo "Output is NULL";
+}
+
+if (strcmp($output,"[0]\n")==0){
     header("Location: result_negative.php");
+}
+
+if (strcmp($output,"[1]\n")==0){
+    header("Location: result_positive.php");
 }
 
 ?>

@@ -8,7 +8,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body class="background3 bodytext">
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky">
         <div class="container-fluid">
             <a class="navbarLinks" href="MainPage.php">Home</a>
@@ -24,48 +24,65 @@
             </div>
         </div>
     </nav>
-    <h1 class="h1" style="text-align:center; color:blue; font-family:Comfortaa">Learn More.</h1>
+    <div class="faq">
+        <center>
+            <img class="faq" src="backgrounds/faq.svg">
+        </center>
+    </div>
+    <div class="gifstyle">
+        <center>
+            <img class="gifstyle" src="Media/car_crash.gif">
+        </center>
+        <div class="paragraph3">
+            <h3 style="font-weight:bold">Dangers of Obstructive Sleep Apnea</h3>
+            <br>
+            People with OSA are approximately two and a half times more likely to have a motor vehicle accident than those without it.
+            Broken night-time sleep leads to less alertness, slower reaction times, poorer concentration and more chance of falling asleep at the wheel.
+            The risk of work accidents is increased if the job involves operating machinery or transport.
+            <br>
+            <br>
+            <div>
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <img class="analysis" src="Media/analysis.svg">
+                    <div class="paragraph4">
+                        <h4 style="font-weight:bold">How our questionnaire works</h4>
+                        <br>
+                        The questionnaire once answered will send your answers to our prediction model, where your answers are taken as inputs and produces
+                        a result of negative or positive. Our prediction model was trained with real data from patients and produces the most possible accurate result it can according to your inputs.
+                        The database the model was trained on has the data from over 100 patients polysomnography test.
+                    </div>
+                    <div class="disclaimer">
+                        <h4 style="color:red">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br><br>
+                            <br>
+                            <br><br>
+                            <br>
+                            <br><br>
+                            <br>
+                            <br><br>
+                            <br>
+                            <br>
+                            <div class="disclaimer">
+                                Disclaimer: <h6>
+                                    This prediction is not 100%, it is just a mere prediction. It is a way to save you time and money, but we still recommend getting your result
+                                    verified by a medical professional.
+                                </h6>
+                            </div>
+                            <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <br>
-    <p class="paragraph3" style="text-align:center; font-family:Comfortaa">
-    <h3 >
-        <b>Dangers of Obstructive Sleep Apnea.</b>
-    </h3>
-    <br>
-    <h5>
-        <b>Daytime Sleepiness.</b>
-    </h5>
-    Drivers that have to travel long distances are more prone to daytime sleepiness.
-    <br>
-    This is very dangerous especially if the patient is showing signs of OSA.
-    <br>
-    Daytime sleepiness is one of the major causes of accidents for people diagnosed with OSA.
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>
-        <b>How our questionnaire works.</b>
-    </h3>
-    <br>
-        The questionnaire once answered will send your answers to our prediction model, where your answers are taken as inputs and produces
-        a result of negative or positive.
-        <br>
-        Our prediction model was trained with real data from patients and produces the most possible accurate result it can according to your inputs.
-        <br>
-        The database the model was trained on has the data from over 100 patients polysomnography test.
-    </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h4 style="color:red">
-        Disclaimer: <h6>
-            This prediction is not 100%, it is just a mere prediction. It is a way to save you time and money, but we still recommend getting your result
-            verified by a medical professional.
-        </h6>
-    </h4>
     <br>
     <br>
     <br>
@@ -77,6 +94,5 @@
     <br>
     <br>
 </body>
-
 
 </html>

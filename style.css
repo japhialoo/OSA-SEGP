@@ -44,11 +44,26 @@
     color: black;
     text-align: justify;
     position: absolute;
-    left: 100px;
+    
     top: 160px;
     width: 600px;
     word-wrap: break-word;
     line-height: 1.6;
+}
+
+.paragraph4 {
+    display: block;
+    font-family: "Comfortaa";
+    font-weight: lighter;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    position: relative; 
+    top: 0px;
+    width: 600px;
+    word-wrap: break-word;
+    line-height: 1.6;
+    left: 40rem;
 }
 
 .link {
@@ -212,6 +227,25 @@ input[type=number] {
     opacity: 1;
 }
 
+.analysis {
+    width: 100% !important;
+    height: 100% !important;
+    border: 0px !important;
+    position: relative;
+    left: -100px;
+    top: 18rem;
+}
+
+.disclaimer {
+    left: -12rem;
+    position: relative;
+}
+
+.analysis:hover {
+    pointer-events: none;
+    opacity: 1;
+}
+
 .carAcc {
     width: 150%;
     height: 20rem;
@@ -268,14 +302,14 @@ a:hover {
 }
 
 .gifstyle {
-    width: 50% !important;
-    height: 50% !important;
+    width: 60% !important;
+    height: 60% !important;
     align-items: right;
     border: 0px !important;
     position: relative;
-    top: -100px;
+    top: -20px;
     z-index: -1;
-    left: 50;
+    left: 450px;
 }
 
 .gifstyle:hover {
