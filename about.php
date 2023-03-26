@@ -54,38 +54,30 @@
                         a result of negative or positive. Our prediction model was trained with real data from patients and produces the most possible accurate result it can according to your inputs.
                         The database the model was trained on has the data from over 100 patients polysomnography test.
                     </div>
-                    <div class="disclaimer">
-                        <h4 style="color:red">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br><br>
-                            <br>
-                            <br><br>
-                            <br>
-                            <br><br>
-                            <br>
-                            <br><br>
-                            <br>
-                            <br>
-                            <div class="disclaimer">
-                                Disclaimer: <h6>
-                                The results obtained from the machine learning model for obstructive sleep apnea (OSA) prediction are not guaranteed to be 100% accurate. The model is based on statistical analysis of input data and may produce false positives or false negatives. 
-                                <br><br>
-                                The results should not be considered as a definitive diagnosis of OSA or a substitute for a medical professional's evaluation. 
-                                <br><br>
-                                The model should be used as a tool to assist in identifying individuals who may be at risk for OSA, but a medical professional's evaluation is necessary for a confirmed diagnosis. 
-                                <br><br>
-                                The developers of this model are not responsible for any errors or consequences resulting from the use of this tool.
-                                </h6>
-                            </div>
-                            <br><br><br>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="disclaimer">
+        <h5 style="color:red">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="disclaimer">
+                <h7 style="font-size:40px; font-weight:bold;">Disclaimer:</h7>
+                    <br>
+                    The results obtained from the machine learning model for obstructive sleep apnea (OSA) prediction are not guaranteed to be 100% accurate. The model is based on statistical analysis of input data and may produce false positives or false negatives.
+                    <br><br>
+                    The results should not be considered as a definitive diagnosis of OSA or a substitute for a medical professional's evaluation.
+                    <br><br>
+                    The model should be used as a tool to assist in identifying individuals who may be at risk for OSA, but a medical professional's evaluation is necessary for a confirmed diagnosis.
+                    <br><br>
+                    The developers of this model are not responsible for any errors or consequences resulting from the use of this tool.
+            </div>
+            <br><br><br>
+        </h5>
     </div>
     <br>
     <br>
@@ -96,8 +88,8 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
 </body>
 
 </html>

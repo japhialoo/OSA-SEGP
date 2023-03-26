@@ -239,6 +239,18 @@ input[type=number] {
 .disclaimer {
     left: -12rem;
     position: relative;
+    width:100%;
+    display: block;
+    font-family: "Comfortaa";
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: justify;
+    position: absolute;
+    width: 90%;
+    word-wrap: break-word;
+    top: 53rem;
+    left: 2rem;
+    line-height: 1.6;
 }
 
 .analysis:hover {
