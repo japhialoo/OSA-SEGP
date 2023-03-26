@@ -36,9 +36,9 @@
         <div class="paragraph3">
             <h3 style="font-weight:bold">Dangers of Obstructive Sleep Apnea</h3>
             <br>
-            People with OSA are approximately two and half times more likely to have a motor vehicle accident than than those without it.
+            People with OSA are approximately two and a half times more likely to have a motor vehicle accident than those without it.
             Broken night-time sleep leads to less alertness, slower reaction times, poorer concentration and more chance of falling asleep at the wheel.
-            The risk of work accidents is increased if your job involves operating machinery or transport.
+            The risk of work accidents is increased if the job involves operating machinery or transport.
             <br>
             <br>
             <div>
