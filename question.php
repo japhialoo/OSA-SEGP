@@ -133,7 +133,7 @@
                         <div class="questions">
                             <br>
                             <br>
-                            <label for="NC" class="form-label" required>4. Neck Circumference :</label>
+                            <label for="NC" class="form-label" step="any" required>4. Neck Circumference :</label>
                             <style>
                                 input[type=number] {
                                     border: 2px solid black
