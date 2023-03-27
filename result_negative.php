@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
@@ -27,14 +28,17 @@
         </div>
     </nav>
 
-    <h1 class="h1" style="text-align:center; color:green; font-family:Comfortaa" >Negative!!</h1>
-    <p class="paragraph3">
-    Congratulations! Our assessment indicates that you do not currently show signs of Obstructive Sleep Apnea (OSA).
-    <br>
-    <br>
-    If you would like to redo the questionnaire once again to confirm, you may click the <i>Take Quiz again</i> to reconfirm our results.
-    <br>
-    <br>
+    <h1 class="h1" style="text-align:center; color:green; font-family:Comfortaa">Negative!!</h1>
+    <p class="paragraph5">
+        <br>
+        <br>
+        <br>
+        Congratulations! Our assessment indicates that you do not currently show signs of Obstructive Sleep Apnea (OSA).
+        <br>
+        <br>
+        If you would like to redo the questionnaire once again to confirm, you may click the <i>Take Quiz again</i> to reconfirm our results.
+        <br>
+        <br>
     </p>
     <img class="happynews" src="Media/joyride.svg">
 
