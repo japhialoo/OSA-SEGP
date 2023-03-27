@@ -29,15 +29,23 @@
     </nav>
 
     <h1 class="h1" style="text-align:center; color:red; font-family:Comfortaa" >Error!</h1>
-    <p class="paragraph3">
+    <p class="paragraph5">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         The Operating System you are using is currently not compatible with the python prediction model. Please try executing in a different machine. Thank you
         <br>
         <br>
         If you would like to learn more about OSA you can click on  <i>Learn More</i> to do so.
         <br>
         <br>
+        <br>
+        <br>
     </p>
-    <img class="sadnews" style="vertical-align: middle ;" src="backgrounds/error.svg">
+    <img class="sadnews" src="backgrounds/error.svg">
     
     
 </body>

@@ -13,8 +13,7 @@ $EP5 = $_POST['EP5'];
 $EP6 = $_POST['EP6'];
 $EP7 = $_POST['EP7'];
 $EP8 = $_POST['EP8'];
-
-$NC = $_POST['NC']; //Neck Circumference
+$NC = round($_POST['NC']); //Neck Circumference
 $W = $_POST['W']; //Weight
 $H = $_POST['H']; //Height
 
@@ -49,20 +48,18 @@ $string = $TS . " " . $MP . " " . $NC . " " . $CNC . " " . $EPS . " " . $OBE . "
 $command = 'TestPrediction.exe ' . escapeshellarg($string); //python instead of python3 worked for my machine
 $output = shell_exec($command);
 
-if ($output==NULL){
-    header("Location: errorPage.php");
-}
-
+// test script to check if file is able to reach this command.
 if ($output==NULL){
     echo "Output is NULL";
 }
 
+// Redirecting to appropriate .php file according to results obtained from prediction model.
 if (strcmp($output,"[0]\n")==0){
     header("Location: result_negative.php");
-}
-
-if (strcmp($output,"[1]\n")==0){
+} else if (strcmp($output,"[1]\n")==0){
     header("Location: result_positive.php");
+} else {
+    header("Location: errorPage.php");
 }
 
 ?>
