@@ -28,9 +28,11 @@
         </div>
     </nav>
 
-    <h1 class="h1" style="text-align:center; color:red; font-family:Comfortaa" >Positive...</h1>
-    <p class="paragraph3">
-    According to the questionnaire answered by you, the results from our prediction program have come out to be positive
+    <h1 class="h1" style="text-align:center; color:red; font-family:Comfortaa"><br>Positive...</h1>
+    <p class="paragraph5">
+        <br>
+        <br>
+        According to the questionnaire answered by you, the results from our prediction program have come out to be positive
         <br>
         <br>
         If you would like to do the questionnaire once again to confirm you may click the <i>Take Quiz again</i> to reconfirm our results.
@@ -39,8 +41,8 @@
         Since our prediction program detected your answers to be OSA positive (accoring to our data base), we highly encourage you to book an appointment with a doctor
         and perform a polysomnography test.
     </p>
-    <img class="sadnews" style="vertical-align: middle ;" src="backgrounds/Sad.svg">
-    
+
+    <div><img class="sadnews" src="backgrounds/Sad.svg"></div>
     
 </body>
 
