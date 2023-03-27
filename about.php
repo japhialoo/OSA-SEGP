@@ -30,9 +30,7 @@
         </center>
     </div>
     <div class="gifstyle">
-        <center>
             <img class="gifstyle" src="Media/car_crash.gif">
-        </center>
         <div class="paragraph3">
             <h3 style="font-weight:bold">Dangers of Obstructive Sleep Apnea</h3>
             <br>
@@ -43,9 +41,6 @@
             <br>
             <div>
                 <div>
-                    <br>
-                    <br>
-                    <br>
                     <img class="analysis" src="Media/analysis.svg">
                     <div class="paragraph4">
                         <h4 style="font-weight:bold">How our questionnaire works</h4>

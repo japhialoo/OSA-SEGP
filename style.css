@@ -44,8 +44,8 @@
     color: black;
     text-align: justify;
     position: absolute;
-    
     top: 160px;
+    left: -20rem;
     width: 600px;
     word-wrap: break-word;
     line-height: 1.6;
@@ -321,7 +321,8 @@ a:hover {
     position: relative;
     top: -20px;
     z-index: -1;
-    left: 450px;
+    left: 400px;
+    padding-left: 0%;
 }
 
 .gifstyle:hover {
