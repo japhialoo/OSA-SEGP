@@ -13,8 +13,7 @@ $EP5 = $_POST['EP5'];
 $EP6 = $_POST['EP6'];
 $EP7 = $_POST['EP7'];
 $EP8 = $_POST['EP8'];
-
-$NC = $_POST['NC']; //Neck Circumference
+$NC = round($_POST['NC']); //Neck Circumference
 $W = $_POST['W']; //Weight
 $H = $_POST['H']; //Height
 
