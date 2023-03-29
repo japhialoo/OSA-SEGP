@@ -166,7 +166,7 @@
                             <br>
                             <div class="scale">
                                 <input type="checkbox" id="PPW" name="PPW" value="1">
-                                <label for="PPW">Post Posterior Webbing</label>
+                                <label for="PPW">Posterior Pillar Webbing</label>
 
                                 <input type="checkbox" id="RN" name="RN" value="1">
                                 <label for="RN">Retrognathia</label>
