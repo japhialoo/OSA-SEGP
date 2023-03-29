@@ -62,7 +62,7 @@
                     <br>
                     <br>
                     <br>
-                    3. Eppworth Sleepiness Scale score
+                    3. Epworth Sleepiness Scale score
                     <br>
                     <div class="scale">
                         <table class="table table-bordered border-dark">
