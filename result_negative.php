@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="navbarLinks" href="about.php">Learn More &emsp;</a>
+                        <a class="navbarLinks" href="about.php">Learn More &emsp; &emsp; &emsp;</a>
                     </li>
                     <li class="nav-item">
                         <a class="navbarLinks" href="question.php">Take Quiz again &#8594;</a>
@@ -28,7 +28,8 @@
         </div>
     </nav>
 
-    <h1 class="h1" style="text-align:center; color:green; font-family:Comfortaa">Negative!!</h1>
+
+    <h1 class="h1" style="text-align:center; color:green; font-family:Comfortaa"><br>Negative!!</h1>
     <p class="paragraph5">
         <br>
         <br>
