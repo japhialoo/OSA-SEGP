@@ -29,7 +29,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   function showLoader() {
     var loader = document.getElementById("loader");
     console.log("loader element:", loader);
-  
+
     // Unhide the loader element
     loader.style.display = "block";
     console.log("loader display property:", loader.style.display);
@@ -38,11 +38,11 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   function hideScroll() {
     var main = document.getElementById("main");
     console.log("main element:", main);
-  
+
     main.style.overflowY = "hidden";
     console.log("main scroll property:", main.style.overflowY);
   }
-  
+
   function addBlur() {
     var blur = document.getElementById("blur");
     var blurForm = document.getElementById("myForm");
@@ -64,3 +64,13 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     hideScroll();
   }
 });
+
+window.addEventListener("pageshow", function (event) {
+  // Check if the page is being loaded from the cache
+  if (event.persisted) {
+    // Perform your page reset here
+    // For example, you can reload the page or reset form fields
+    location.reload(); // reloads the page
+  }
+});
+
