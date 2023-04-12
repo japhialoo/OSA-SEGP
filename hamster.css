@@ -1,11 +1,38 @@
 .wheel-and-hamster {
     --dur: 1s;
-    position: relative;
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: 15em;
     font-size: 14px;
+    z-index: 9999;
+    display: none;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 40%;
+    left: 45%;
+    bottom: 0;
+    right: 0;
+    filter: blur(none)!important;
+
 }
 
+.container{
+    width : 100rem;
+    height: 14rem;
+    z-index: 999999;
+    display: none;
+
+    position: fixed;
+    top: 19.5rem;
+    left: -5rem;
+    bottom: 0;
+    right: 0;
+}
+  
 .wheel,
 .hamster,
 .hamster div,
