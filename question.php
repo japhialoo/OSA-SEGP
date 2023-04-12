@@ -3,11 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamster.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body class="background2">
+<body class="background2" id="main">
     <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky">
         <div class="container-fluid">
             <a class="navbarLinks" href="MainPage.php">Home</a>
@@ -24,12 +25,13 @@
         </div>
     </nav>
     <br>
-    <h1 class="heading2">
+
+    <h1 class="heading2" id="blur">
         Questionnaire
     </h1>
     <br>
     <br>
-    <form action="result.php" method="POST" id="myForm">
+    <form action="result.php" method="POST" id="myForm" class="blur">
         <center>
             <div class="questions">
                 <div class="radio-group">
@@ -62,7 +64,7 @@
                     <br>
                     <br>
                     <br>
-                    3. Eppworth Sleepiness Scale score
+                    3. Epworth Sleepiness Scale score
                     <br>
                     <div class="scale">
                         <table class="table table-bordered border-dark">
@@ -133,7 +135,7 @@
                         <div class="questions">
                             <br>
                             <br>
-                            <label for="NC" class="form-label" step="any" required>4. Neck Circumference :</label>
+                            <label for="NC" class="form-label" step="any" required>4. Neck Circumference (cm):</label>
                             <style>
                                 input[type=number] {
                                     border: 2px solid black
@@ -143,12 +145,12 @@
 
                             <br>
                             <br>
-                            <label for="W" class="form-label">5. Weight :</label>
+                            <label for="W" class="form-label">5. Weight (kg):</label>
                             <input type="number" step="any" class="form-control" id="W" name="W" placeholder="kg" required>
 
                             <br>
                             <br>
-                            <label for="H" class="form-label">6. Height :</label>
+                            <label for="H" class="form-label">6. Height (m):</label>
                             <input type="number" step="any" class="form-control" id="H" name="H" placeholder="m" required>
 
                         </div>
@@ -166,7 +168,7 @@
                             <br>
                             <div class="scale">
                                 <input type="checkbox" id="PPW" name="PPW" value="1">
-                                <label for="PPW">Post Posterior Webbing</label>
+                                <label for="PPW">Posterior Pillar Webbing</label>
 
                                 <input type="checkbox" id="RN" name="RN" value="1">
                                 <label for="RN">Retrognathia</label>
@@ -184,6 +186,28 @@
                 <br><br><br><br><br><br>
         </center>
     </form>
+    <center>
+        <div class="container" id="loader">
+            <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+                <div class="wheel"></div>
+                <div class="hamster" id="loader">
+                    <div class="hamster__body">
+                        <div class="hamster__head">
+                            <div class="hamster__ear"></div>
+                            <div class="hamster__eye"></div>
+                            <div class="hamster__nose"></div>
+                        </div>
+                        <div class="hamster__limb hamster__limb--fr"></div>
+                        <div class="hamster__limb hamster__limb--fl"></div>
+                        <div class="hamster__limb hamster__limb--br"></div>
+                        <div class="hamster__limb hamster__limb--bl"></div>
+                        <div class="hamster__tail"></div>
+                    </div>
+                </div>
+                <div class="spoke"></div>
+            </div>
+        </div>
+    </center>
 
 
 
