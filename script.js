@@ -49,8 +49,8 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     console.log("blur element:", blur);
     console.log("blur Form:", blurForm);
 
-    blur.style.filter = "blur(1.5rem)";
-    blurForm.style.filter = "blur(1.5rem)";
+    blur.style.filter = "blur(3rem)";
+    blurForm.style.filter = "blur(3rem)";
     console.log("blur property:", blur.style.filter);
     console.log("blur propert:", blurForm.style.filter);
   }
