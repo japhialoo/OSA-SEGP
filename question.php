@@ -72,7 +72,7 @@
                                 <td>How likely are you to doze off in the following situations?</td>
                                 <td>No Chance</td>
                                 <td>Slight Chance</td>
-                                <td>Moderate Chane</td>
+                                <td>Moderate Chance</td>
                                 <td>High Chance</td>
                             </tr>
                             <tr>
