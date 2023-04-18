@@ -55,6 +55,11 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     console.log("blur propert:", blurForm.style.filter);
   }
 
+  function disableButton() {
+    var submitButton = document.getElementById("submitButton");
+    submitButton.disabled = true;
+  }
+
 
   // Check if the form was allowed to be submitted
   if (!event.defaultPrevented) {
@@ -62,6 +67,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     addBlur();
     showLoader();
     hideScroll();
+    disableButton();
   }
 });
 
@@ -73,4 +79,57 @@ window.addEventListener("pageshow", function (event) {
     location.reload(); // reloads the page
   }
 });
+
+var weightInput = document.getElementById("W");
+
+weightInput.min = 0;
+weightInput.max = 1000;
+
+const inputWeight = document.getElementById("W");
+let prevWeightValue = inputWeight.value; // keep track of previous value
+
+inputWeight.addEventListener("input", function(event) {
+  const maxWeight = 1000;
+
+  if (event.target.value > maxWeight) {
+    event.target.value = prevWeightValue; // set back to previous value
+    alert("Maximum weight is 1000kg");
+  } else {
+    prevWeightValue = event.target.value; // update previous value
+  }
+
+});
+
+inputHeight = document.getElementById("H");
+let prevHeightValue = inputHeight.value; // keep track of previous value
+
+inputHeight.addEventListener("input", function(event) {
+  const maxHeight = 300;
+
+  if (event.target.value > maxHeight) {
+    event.target.value = prevHeightValue; // set back to previous value
+    alert("Maximum height is 300cm");
+  } else {
+    prevHeightValue = event.target.value; // update previous value
+  }
+
+});
+
+inputNC = document.getElementById("NC");
+let prevNCValue = inputNC.value; // keep track of previous value
+
+inputNC.addEventListener("input", function(event) {
+  const maxNC = 100;
+
+  if (event.target.value > maxNC) {
+    event.target.value = prevNCValue; // set back to previous value
+    alert("Maximum Neck Circumference is 100cm");
+  } else {
+    prevNCValue = event.target.value; // update previous value
+  }
+
+});
+
+
+
 

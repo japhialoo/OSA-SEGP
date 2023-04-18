@@ -32,8 +32,11 @@ if ($NC >= "40"){
     $CNC = "0";
 }
 
+// Convert height to meters
+$HM = $H/100;
+
 //Calculate BMI
-$BMI = round(($W)/($H**2));
+$BMI = round(($W)/($HM**2));
 
 //Check for obesity
 if ($BMI >="30"){
