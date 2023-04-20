@@ -26,6 +26,8 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
 
     alert("Neck Circumference must be greater than 0");
   }
+
+  // function to unhide loader animation
   function showLoader() {
     var loader = document.getElementById("loader");
     console.log("loader element:", loader);
@@ -35,6 +37,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     console.log("loader display property:", loader.style.display);
   }
 
+  // function to hide vertical scroller
   function hideScroll() {
     var main = document.getElementById("main");
     console.log("main element:", main);
@@ -43,6 +46,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     console.log("main scroll property:", main.style.overflowY);
   }
 
+  // function to blur question page
   function addBlur() {
     var blur = document.getElementById("blur");
     var blurForm = document.getElementById("myForm");
@@ -55,6 +59,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     console.log("blur propert:", blurForm.style.filter);
   }
 
+  // function to disable submit button
   function disableButton() {
     var submitButton = document.getElementById("submitButton");
     submitButton.disabled = true;
@@ -74,8 +79,6 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
 window.addEventListener("pageshow", function (event) {
   // Check if the page is being loaded from the cache
   if (event.persisted) {
-    // Perform your page reset here
-    // For example, you can reload the page or reset form fields
     location.reload(); // reloads the page
   }
 });
@@ -118,6 +121,7 @@ inputHeight.addEventListener("input", function(event) {
 inputNC = document.getElementById("NC");
 let prevNCValue = inputNC.value; // keep track of previous value
 
+// To set value in input box to last eligible value 
 inputNC.addEventListener("input", function(event) {
   const maxNC = 100;
 
