@@ -8,7 +8,7 @@ import pandas as pd
 # Not required for final website
 
 # Loading training data set and expected output into an array.
-s = np.array(pd.read_excel('OSA_Dataset301_2YrGp.xls',usecols='A:J', nrows=300, skiprows=1))
+s = np.array(pd.read_excel('ML/OSA_Dataset301_2YrGp.xls',usecols='A:J', nrows=300, skiprows=1))
 VarNames = np.array(['Outcome''A''B''C''D''E''F''G''H''I'])
 
 # Separating data into training data, X, and expected output value, Y.
