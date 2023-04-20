@@ -11,11 +11,11 @@ This Web Application was developed under the guidance of Dr. Doreen Sim Ying Yin
 
 # Creating EXE 
 <Pyinstaller command line to create the exe file>
+pyinstaller -F --hidden-import="sklearn.utils._cython_blas" --hidden-import="sklearn.neighbors.typedefs" --hidden-import="sklearn.neighbors.quad_tree" --hidden-import="sklearn.tree._utils" --hidden-import="joblib" --hidden-import="sklearn.ensemble._weight_boosting" TestPrediction.py
 
 # Running the Program
 1. install XAMPP 
-2. Launch Visual Studio Code and install the following plug ins
-    - PHP Debug
-    - PHP Extension Pack
+2. Launch Visual Studio Code and install the following plug ins  
     - PHP Server
-    - Format HTML in PHP
+3. Open MainPage.php
+4. Right-click and select "PHP Server: Serve project"
