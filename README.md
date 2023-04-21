@@ -40,5 +40,4 @@ Clone the repo:
    git clone https://github.com/japhialoo/OSA-SEGP.git
    ```
 
-<p align="right">(<a href="# OSA-SEGP">back to top</a>)</p>
 
