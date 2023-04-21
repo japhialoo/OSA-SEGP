@@ -15,7 +15,8 @@ pyinstaller -F --hidden-import="sklearn.utils._cython_blas" --hidden-import="skl
 
 # Running the Program
 1. install XAMPP 
-2. Launch Visual Studio Code and install the following plug ins  
+2. add PHP path to system environment variable
+3. Launch Visual Studio Code and install the following plug ins  
     - PHP Server
-3. Open MainPage.php
-4. Right-click and select "PHP Server: Serve project"
+4. Open MainPage.php
+5. Right-click and select "PHP Server: Serve project"
