@@ -48,7 +48,7 @@ if ($BMI >="30"){
 //1.TS 2.MP 3.NC 4.CNC 5.EPS 6.OBE 7.PPW 8.RN 9.MN
 
 $string = $TS . " " . $MP . " " . $NC . " " . $CNC . " " . $EPS . " " . $OBE . " " . $PPW . " " . $RN . " " . $MN;
-$command = 'FrontEnd/PredictionModel.exe ' . escapeshellarg($string); 
+$command = 'PredictionModel.exe ' . escapeshellarg($string); 
 $output = shell_exec($command);
 
 // test script to check if file is able to reach this command.
