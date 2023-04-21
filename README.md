@@ -10,8 +10,9 @@ This Web Application was developed under the guidance of Dr. Doreen Sim Ying Yin
 4. The MainPage.php is the main page that should be launched by the user to interact with the web application. 
 
 # Creating EXE 
-<Pyinstaller command line to create the exe file>
+```sh 
 pyinstaller -F --hidden-import="sklearn.utils._cython_blas" --hidden-import="sklearn.neighbors.typedefs" --hidden-import="sklearn.neighbors.quad_tree" --hidden-import="sklearn.tree._utils" --hidden-import="joblib" --hidden-import="sklearn.ensemble._weight_boosting" TestPrediction.py
+```
 
 # Running the Program
 1. install XAMPP 
