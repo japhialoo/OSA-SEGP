@@ -18,9 +18,10 @@ The primary objective of this project is to provide a user-friendly platform tha
 
 # Source File Breakdown
 1. The "ML" folder contains the machine learning implementations for the prediction model used in the final version of the web application
-2. The "TS", "MP", "backgrounds", and "Media" folders contain images used in the web application user interface. TS and MP represent Tonsil Size and Mallampati Score respectively
-3. The "createEXE" folder contains the implementations for creating a python script to execute the prediction model.
-4. The MainPage.php is the main page that should be launched by the user to interact with the web application. 
+2. The "FrontEnd" folder contains all the files and elements required to generate the user interface of the web application.
+3. The "TS", "MP", "backgrounds", and "Media" folders contained in the "FrontEnd" folder contains the images used in the web application user interface. TS and MP represent Tonsil Size and Mallampati Score respectively
+4. The "createEXE" folder contains the implementations for creating a python script to execute the prediction model.
+5. The MainPage.php is the main page that should be launched by the user to interact with the web application. 
 
 # Creating EXE 
 ```sh 
