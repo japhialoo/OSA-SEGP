@@ -1,7 +1,20 @@
 # OSA-SEGP
-Group V's SEGP program for early diagnosis of Obstructive Sleep Apnea
+Group V's SEGP program for early diagnosis of Obstructive Sleep Apnea to assist the Ministry of Transportation in regulating road safety. 
 
-This Web Application was developed under the guidance of Dr. Doreen Sim Ying Ying.
+The primary objective of this project is to provide a user-friendly platform that allows individuals to assess their risk for OSA and take appropriate steps to seek medical attention if necessary. By leveraging the power of predictive modelling, the aim is to help individuals identify potential health issues early on and take proactive measures to address them.
+
+
+
+
+
+# Running the Program
+1. Install [XAMPP](https://www.apachefriends.org/download.html) 
+2. Install and set up [PHP](https://learn.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php)
+3. Install [Visual Studio Code](https://code.visualstudio.com/download)
+4.  Launch Visual Studio Code and install the following plug ins  
+    - [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
+5. Open MainPage.php
+6. Right-click and select "PHP Server: Serve project"
 
 # Source File Breakdown
 1. The "ML" folder contains the machine learning implementations for the prediction model used in the final version of the web application
@@ -14,10 +27,4 @@ This Web Application was developed under the guidance of Dr. Doreen Sim Ying Yin
 pyinstaller -F --hidden-import="sklearn.utils._cython_blas" --hidden-import="sklearn.neighbors.typedefs" --hidden-import="sklearn.neighbors.quad_tree" --hidden-import="sklearn.tree._utils" --hidden-import="joblib" --hidden-import="sklearn.ensemble._weight_boosting" TestPrediction.py
 ```
 
-# Running the Program
-1. install XAMPP 
-2. add PHP path to system environment variable
-3. Launch Visual Studio Code and install the following plug ins  
-    - PHP Server
-4. Open MainPage.php
-5. Right-click and select "PHP Server: Serve project"
+This Web Application was developed under the guidance of Dr. Doreen Sim Ying Ying.
